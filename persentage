@@ -1,0 +1,26 @@
+
+package javaapplication43;
+import java.util.*;
+
+public class JavaApplication43 {
+
+
+    public static void main(String[] args) {
+     Scanner input = new Scanner(System.in);
+        System.out.println("Please enter your number for chacking your grade");
+        double n = input.nextDouble();
+        if (n>=90&&n<=100)
+            
+        System.out.println("A");
+        if (n>=75&&n<90)
+            
+                System.out.println("B");
+        if (n>=55&&n<75)
+            
+                System.out.println("c");
+        if (n<55)
+            System.out.println("faild");
+    }
+    
+}
+ 

@@ -1,0 +1,14 @@
+
+package javaapplication72;
+
+
+public class JavaApplication72 {
+
+    
+    public static void main(String[] args) {
+    String name = "Nematullah";
+    String lastName = "Qassimi";
+        System.out.println("full name :"+name+""+lastName);
+    }
+    
+}
